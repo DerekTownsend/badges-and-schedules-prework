@@ -1,6 +1,8 @@
 # Write your code here.
 def badge_maker(name)
-  puts "Hello, my name is #{name}."
+  output="Hello, my name is #{name}."
+  puts output
+  return output
 end
 def batch_badge_creator(array)
   new_list=[]
