@@ -14,7 +14,7 @@ end
 def assign_rooms(array)
   roomlist=[]
   array.each do |name|
-    roomlist.push(badge_maker(name))
+    roomlist.push("Hello, #{name}! You'll be assigned to room _____!")
   end
   return roomlist
 end
