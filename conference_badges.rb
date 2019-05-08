@@ -13,7 +13,7 @@ end
 
 def assign_rooms(array)
   roomlist=[]
-  array.each do |name|
+  array.each do |name,room|
     roomlist.push("Hello, #{name}! You'll be assigned to room _____!")
   end
   return roomlist
